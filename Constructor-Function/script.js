@@ -26,3 +26,18 @@ console.log(bhanu , kanika);
 console.log(bhanu instanceof Person);
 //"instanceof" - An operator to check whether a variable is an instance of a 
 // constructor function(class) or not 
+
+// EXAMPLE FOR PRACTICE 
+const Model = function(name , modelNumber){
+    this.name = name;
+    this.modelNumber = modelNumber;
+
+}
+const Abbi = new Model("Abbi" , 1);
+console.log('Model name is : ' + Abbi.name + " " + 'and the model number is : ' + Abbi.modelNumber);
+const Suraj = new Model("Suraj" , 2);
+console.log('Model name is : ' + Suraj.name + " " + 'and the model number is : ' + Suraj.modelNumber);
+const Mishra = new Model("Abhishek Mishra", 3);
+console.log(
+   'Model name is : ' + Mishra.name + " " + 'and the model number is : ' +  Mishra.modelNumber
+    );
