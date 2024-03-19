@@ -7,7 +7,7 @@ this.birthYear = birthYear;
 // never do this - Never create an method inside a 
 // constructor function this is a bad practice
 // but instead to solve this problem you can use prototypes
-// and protypal inheritance
+// and protypal inheritance which you can see in the next Protoypes directory
 // this.calcAge = function() {
     // console.log(2024 - this.birthYear);
 // }
