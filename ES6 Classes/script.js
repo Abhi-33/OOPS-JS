@@ -25,3 +25,8 @@ Abhishek.greet();
 // }
 
 // Abhishek.greet();
+
+// Important things about classes 
+// 1 . Classes are not hoisted.
+// 2 . Classes are first-class citizens . 
+// 3 . Classes are executed in strict mode .
