@@ -67,3 +67,4 @@ class Car{
 const Swift = new Car('Swift' , 2012);
 console.log(Swift);
 Swift.check();
+
