@@ -39,4 +39,31 @@ class PersonCL {
 const Abhishek = new PersonCL("Abhishek" , 2004);
 console.log(Abhishek.age);
 Abhishek.age = 34;
-console.log(Abhishek.age);
+console.log(Abhishek.age); 
+
+
+// example practice of constructor making 
+class Car{
+    constructor(carName , carModel){
+            this.carName = carName;
+            this.carModel = carModel;
+    }
+    check(){
+        if(this.carModel <2012) {
+            console.log('Not Available right Now')
+        }
+        else if(this.carModel >2012){
+            console.log('Available ! You can come tomorrow');
+        }
+        else if(this.carModel == 2012){
+            console.log('Car is Available but you have to pay a little extra to arrange spares for older model!');
+        }
+        else{
+            console.log('come back later ');
+        }
+    }
+
+}
+const Swift = new Car('Swift' , 2012);
+console.log(Swift);
+Swift.check();
