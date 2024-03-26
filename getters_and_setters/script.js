@@ -16,7 +16,7 @@ account.latest = 100;
 console.log(account.movements);
 
 //  getters and setters in Classes 
-class PersonCL {
+ class PersonCL {
     constructor(fullName, birthYear ) {
         this.fullName = fullName;
         this.birthYear = birthYear;
