@@ -75,3 +75,15 @@ class Car {
 const Swift = new Car('Swift', 2012);
 console.log(Swift);
 Swift.check();
+
+// let hey = function(){
+//     console.log('Hey there my name is Abhishek Vashisth 👏🏻');
+
+// }
+
+// hey();
+
+Array.from(document.querySelectorAll('h1'));
+//Array.from() is a static method in javascript 
+//and we from() can only be used with the Array construtcor 
+// only and not alone .
