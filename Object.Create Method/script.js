@@ -29,3 +29,6 @@ console.log(Bhanu.__proto__);
 
 const Kanika = Object.create(PersonProto);
 console.log(Kanika);
+Kanika.init('Kanika Vashisth' , 2001);
+
+console.log(Kanika.__proto__);
