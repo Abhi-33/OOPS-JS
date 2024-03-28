@@ -20,3 +20,5 @@ console.log(steven.__proto__);
 const Abhishek = Object.create(PersonProto);
 console.log(Abhishek);
 Abhishek.init('Abhishek Vashisth' , 2004);
+
+const Bhanu = Object.create(PersonProto);
